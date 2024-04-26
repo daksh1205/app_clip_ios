@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		526E2D6D2BDBFAC500E6CF8C /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2D6C2BDBFAC500E6CF8C /* IntroductionView.swift */; };
+		526E2D712BDC027100E6CF8C /* MeetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2D702BDC027100E6CF8C /* MeetView.swift */; };
+		526E2D732BDC065200E6CF8C /* deets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2D722BDC065200E6CF8C /* deets.swift */; };
+		526E2D9E2BDC175500E6CF8C /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 526E2D9D2BDC175500E6CF8C /* Kanit-Regular.ttf */; };
+		526E2DA02BDC2BA000E6CF8C /* DeetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2D9F2BDC2BA000E6CF8C /* DeetsView.swift */; };
+		526E2DA22BDC2F1900E6CF8C /* ReserveSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2DA12BDC2F1900E6CF8C /* ReserveSpotView.swift */; };
+		526E2DA42BDC360300E6CF8C /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2DA32BDC360300E6CF8C /* ThankYouView.swift */; };
 		52DC37532BD6E4CB0056BC56 /* MyAppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DC37522BD6E4CB0056BC56 /* MyAppClipApp.swift */; };
 		52DC37552BD6E4CB0056BC56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DC37542BD6E4CB0056BC56 /* ContentView.swift */; };
 		52DC37572BD6E4CC0056BC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DC37562BD6E4CC0056BC56 /* Assets.xcassets */; };
@@ -20,6 +27,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		526E2D6C2BDBFAC500E6CF8C /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		526E2D702BDC027100E6CF8C /* MeetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetView.swift; sourceTree = "<group>"; };
+		526E2D722BDC065200E6CF8C /* deets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deets.swift; sourceTree = "<group>"; };
+		526E2D9C2BDC11B900E6CF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		526E2D9D2BDC175500E6CF8C /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-Regular.ttf"; path = "../../../Downloads/Kanit/Kanit-Regular.ttf"; sourceTree = "<group>"; };
+		526E2D9F2BDC2BA000E6CF8C /* DeetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeetsView.swift; sourceTree = "<group>"; };
+		526E2DA12BDC2F1900E6CF8C /* ReserveSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveSpotView.swift; sourceTree = "<group>"; };
+		526E2DA32BDC360300E6CF8C /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
 		52DC374F2BD6E4CB0056BC56 /* MyAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DC37522BD6E4CB0056BC56 /* MyAppClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppClipApp.swift; sourceTree = "<group>"; };
 		52DC37542BD6E4CB0056BC56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,11 +79,19 @@
 		52DC37512BD6E4CB0056BC56 /* MyAppClip */ = {
 			isa = PBXGroup;
 			children = (
+				526E2D9C2BDC11B900E6CF8C /* Info.plist */,
 				52DC37522BD6E4CB0056BC56 /* MyAppClipApp.swift */,
 				52DC37542BD6E4CB0056BC56 /* ContentView.swift */,
+				526E2DA12BDC2F1900E6CF8C /* ReserveSpotView.swift */,
 				52DC376C2BD6E84D0056BC56 /* DetailsView.swift */,
+				526E2D9F2BDC2BA000E6CF8C /* DeetsView.swift */,
+				526E2D6C2BDBFAC500E6CF8C /* IntroductionView.swift */,
+				526E2D702BDC027100E6CF8C /* MeetView.swift */,
+				526E2DA32BDC360300E6CF8C /* ThankYouView.swift */,
+				526E2D722BDC065200E6CF8C /* deets.swift */,
 				52DC37612BD6E71D0056BC56 /* GoogleService-Info.plist */,
 				52DC37562BD6E4CC0056BC56 /* Assets.xcassets */,
+				526E2D9D2BDC175500E6CF8C /* Kanit-Regular.ttf */,
 				52DC37582BD6E4CC0056BC56 /* Preview Content */,
 			);
 			path = MyAppClip;
@@ -159,6 +182,7 @@
 				52DC375A2BD6E4CC0056BC56 /* Preview Assets.xcassets in Resources */,
 				52DC37572BD6E4CC0056BC56 /* Assets.xcassets in Resources */,
 				52DC37622BD6E71D0056BC56 /* GoogleService-Info.plist in Resources */,
+				526E2D9E2BDC175500E6CF8C /* Kanit-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +195,13 @@
 			files = (
 				52DC37552BD6E4CB0056BC56 /* ContentView.swift in Sources */,
 				52DC37532BD6E4CB0056BC56 /* MyAppClipApp.swift in Sources */,
+				526E2DA02BDC2BA000E6CF8C /* DeetsView.swift in Sources */,
+				526E2D6D2BDBFAC500E6CF8C /* IntroductionView.swift in Sources */,
 				52DC376D2BD6E84E0056BC56 /* DetailsView.swift in Sources */,
+				526E2DA22BDC2F1900E6CF8C /* ReserveSpotView.swift in Sources */,
+				526E2D712BDC027100E6CF8C /* MeetView.swift in Sources */,
+				526E2D732BDC065200E6CF8C /* deets.swift in Sources */,
+				526E2DA42BDC360300E6CF8C /* ThankYouView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +337,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyAppClip/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyAppClip/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -335,6 +366,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyAppClip/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyAppClip/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

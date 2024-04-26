@@ -1,7 +1,7 @@
 import SwiftUI
 import FirebaseDatabase
 
-struct ContentView: View {
+struct UserDetailsView: View {
     @State private var companyName = ""
     @State private var name = ""
     @State private var designation = ""
@@ -127,8 +127,8 @@ struct ContentView: View {
                         }
                     }
                     .font(Font.custom("Kanit-Regular", size: 18))
-                    .frame(maxWidth: .infinity, maxHeight: 10)
-                    .padding(.horizontal, 50)
+                    .frame(maxWidth: 210, maxHeight: 10)
+                    .padding(.horizontal, 55)
                     .padding()
                     .background(LinearGradient(gradient: Gradient(colors: [Color(red: 0.427, green: 0.455, blue: 0.831), Color(red: 0.694, green: 0.329, blue: 0.757)]), startPoint: .topLeading, endPoint: .bottomTrailing))
                     .foregroundColor(.white)
@@ -179,9 +179,9 @@ DeetsView(name: name, email: email, phoneNumber: phoneNumber, designation: desig
         }
     
     
-    struct ContentView_Previews: PreviewProvider {
+    struct UserDetailsView_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            UserDetailsView()
         }
     }
 
