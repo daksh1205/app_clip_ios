@@ -7,151 +7,135 @@ struct ContentView: View {
     @State private var designation = ""
     @State private var phoneNumber = ""
     @State private var email = ""
-    @State private var showingAlert = false
-    @State private var alertMessage = ""
-    @State private var showDetails = false
-    @State private var isSuccessAlert = false
-    
-    
-    
+    @State private var showThankYouView = false  // State to manage the display of the Thank You view
+
     var body: some View {
-        NavigationView {
-            ZStack() {
+        NavigationStack {
+            ZStack {
                 Image("signupbg")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .edgesIgnoringSafeArea(.all)
+                    
                 
                 VStack(alignment: .center
-                       , spacing: 24) {  // Reduced spacing from 24 to 10
-                    // Company Name
-                    VStack(alignment: .leading, spacing: 5) {  // Additional fine control over spacing
-                        Label {
-                            Text("Company Name").font(Font.custom("Kanit-Regular", size: 18))
-                            Text("*").font(Font.custom("Kanit-Regular", size: 18))
-                                .foregroundColor(.red)  // Makes the asterisk red
-                        } icon: {
-                            EmptyView()
-                        }
-                        .font(.headline)
-                        TextField("Enter Company Name", text: $companyName) // Updated placeholder text
-                            .foregroundColor(.black.opacity(0.4)) // Adjusted text opacity and color
-                            .font(Font.custom("Kanit", size: 17))
-                            .textFieldStyle(RoundedBorderTextFieldStyle())
-                    }
-                    .padding(.top, 150)
-                    .padding(.horizontal, 5)
+                                     , spacing: 24) {  // Reduced spacing from 24 to 10
+                                  // Company Name
+                                  VStack(alignment: .leading, spacing: 5) {  // Additional fine control over spacing
+                                      Label {
+                                          Text("Company Name").font(Font.custom("Kanit-Regular", size: 18))
+                                          Text("*").font(Font.custom("Kanit-Regular", size: 18))
+                                              .foregroundColor(.red)  // Makes the asterisk red
+                                      } icon: {
+                                          EmptyView()
+                                      }
+                                      .font(.headline)
+                                      TextField("Pathfinder.global", text: $companyName) // Updated placeholder text
+                                          .foregroundColor(.black.opacity(0.4)) // Adjusted text opacity and color
+                                          .font(Font.custom("Kanit", size: 17))
+                                          .textFieldStyle(RoundedBorderTextFieldStyle())
+                                  }
+                                  .padding(.top, 180)
+                                  .padding(.horizontal, 8)
+                                  
+                                  // Name
+                                  VStack(alignment: .leading, spacing: 5) {
+                                      Label {
+                                          Text("Name").font(Font.custom("Kanit-Regular", size: 18))
+                                          Text("*").font(Font.custom("Kanit-Regular", size: 18))
+                                              .foregroundColor(.red)  // Makes the asterisk red
+                                      } icon: {
+                                          EmptyView()
+                                      }
+                                      .font(.headline)
+                                      TextField("Ahmed", text: $name) // Updated placeholder text
+                                          .foregroundColor(.black.opacity(0.4))
+                                          .font(Font.custom("Kanit", size: 17))
+                                          .textFieldStyle(RoundedBorderTextFieldStyle())
+                                  }
+                                  .padding(.horizontal, 8)
+                                  
+                                  // Designation
+                                  VStack(alignment: .leading, spacing: 5) {
+                                      Label {
+                                          Text("Designation").font(Font.custom("Kanit-Regular", size: 18))
+                                          Text("(Optional)").font(Font.custom("Kanit-Regular", size: 18))
+                                              .foregroundColor(.gray.opacity(0.4))  // Makes the asterisk red
+                                      } icon: {
+                                          EmptyView()
+                                      }
+                                      .font(.headline)
+                                      TextField("Enter Designation", text: $designation) // Updated placeholder text
+                                          .foregroundColor(.black.opacity(0.4))
+                                          .font(Font.custom("Kanit", size: 17))
+                                          .textFieldStyle(RoundedBorderTextFieldStyle())
+                                          .keyboardType(.phonePad)
+                                  }
+                                  .padding(.horizontal, 8)
+                                  
+                                  // Phone Number
+                                  VStack(alignment: .leading, spacing: 5) {
+                                      Label {
+                                          Text("Phone Number").font(Font.custom("Kanit-Regular", size: 18))
+                                          Text("*").font(Font.custom("Kanit-Regular", size: 18))
+                                              .foregroundColor(.red)  // Makes the asterisk red
+                                      } icon: {
+                                          EmptyView()
+                                      }
+                                      .font(.headline)
+                                      TextField("+91 75541 42165", text: $phoneNumber) // Updated placeholder text
+                                          .foregroundColor(.black.opacity(0.4))
+                                          .font(Font.custom("Kanit", size: 17))
+                                          .textFieldStyle(RoundedBorderTextFieldStyle())
+                                          .keyboardType(.phonePad)
+                                  }
+                                  .padding(.horizontal, 8)
+                                  
+                                  
+                                  // Email
+                                  VStack(alignment: .leading, spacing: 5) {
+                                      Label {
+                                          Text("Email")
+                                          Text("*").font(Font.custom("Kanit-Regular", size: 18))
+                                              .foregroundColor(.red)  // Makes the asterisk red
+                                      } icon: {
+                                          EmptyView()
+                                      }
+                                      .font(.headline)
+                                      TextField("info@\u{200B}pathfinder.\u{200B}global", text: $email)// Updated placeholder text
+                                          .foregroundColor(.black.opacity(0.4))
+                                          .font(Font.custom("Kanit", size: 17))
+                                          .textFieldStyle(RoundedBorderTextFieldStyle())
+                                          .keyboardType(.emailAddress)
+                                        
+                                          .cornerRadius(10)
+                                          
+                                      
+                                  }
+                                  .padding(.horizontal, 8)
                     
-                    // Name
-                    VStack(alignment: .leading, spacing: 5) {
-                        Label {
-                            Text("Name").font(Font.custom("Kanit-Regular", size: 18))
-                            Text("*").font(Font.custom("Kanit-Regular", size: 18))
-                                .foregroundColor(.red)  // Makes the asterisk red
-                        } icon: {
-                            EmptyView()
-                        }
-                        .font(.headline)
-                        TextField("Enter Name", text: $name) // Updated placeholder text
-                            .foregroundColor(.black.opacity(0.4))
-                            .font(Font.custom("Kanit", size: 17))
-                            .textFieldStyle(RoundedBorderTextFieldStyle())
-                    }
-                    .padding(.horizontal, 5)
+                                  .padding(.bottom, 100)
                     
-                    // Designation
-                    VStack(alignment: .leading, spacing: 5) {
-                        Label {
-                            Text("Designation").font(Font.custom("Kanit-Regular", size: 18))
-                            Text("(Optional)").font(Font.custom("Kanit-Regular", size: 18))
-                                .foregroundColor(.gray.opacity(0.4))  // Makes the asterisk red
-                        } icon: {
-                            EmptyView()
-                        }
-                        .font(.headline)
-                        TextField("Enter Designation", text: $designation) // Updated placeholder text
-                            .foregroundColor(.black.opacity(0.4))
-                            .font(Font.custom("Kanit", size: 17))
-                            .textFieldStyle(RoundedBorderTextFieldStyle())
-                            .keyboardType(.phonePad)
-                    }
-                    .padding(.horizontal, 5)
-                    
-                    // Phone Number
-                    VStack(alignment: .leading, spacing: 5) {
-                        Label {
-                            Text("Phone Number").font(Font.custom("Kanit-Regular", size: 18))
-                            Text("*").font(Font.custom("Kanit-Regular", size: 18))
-                                .foregroundColor(.red)  // Makes the asterisk red
-                        } icon: {
-                            EmptyView()
-                        }
-                        .font(.headline)
-                        TextField("Enter Phone Number", text: $phoneNumber) // Updated placeholder text
-                            .foregroundColor(.black.opacity(0.4))
-                            .font(Font.custom("Kanit", size: 17))
-                            .textFieldStyle(RoundedBorderTextFieldStyle())
-                            .keyboardType(.phonePad)
-                    }
-                    .padding(.horizontal, 5)
-                    
-                    // Email
-                    VStack(alignment: .leading, spacing: 5) {
-                        Label {
-                            Text("Email")
-                            Text("*").font(Font.custom("Kanit-Regular", size: 18))
-                                .foregroundColor(.red)  // Makes the asterisk red
-                        } icon: {
-                            EmptyView()
-                        }
-                        .font(.headline)
-                        TextField("Enter Email", text: $email) // Updated placeholder text
-                            .foregroundColor(.black.opacity(0.4))
-                            .font(Font.custom("Kanit", size: 17))
-                            .textFieldStyle(RoundedBorderTextFieldStyle())
-                            .keyboardType(.emailAddress)
-                    }
-                    .padding(.horizontal, 5)
-                    .padding(.bottom, 100)
-                    
-                    
-                    
+                       
                     Button("Submit") {
-                        // Action for the button
-                        if fieldsAreValid {
-                            submitDetails()
-                        } else {
-                            alertMessage = "Please input all required fields"
-                            isSuccessAlert = false
-                            showingAlert = true
-                        }
+                        submitDetails()
                     }
                     .font(Font.custom("Kanit-Regular", size: 18))
-                    .frame(maxWidth: .infinity, maxHeight: 10)
-                    .padding(.horizontal, 50)
+                    .frame(maxWidth: .infinity, maxHeight: 15)
                     .padding()
                     .background(LinearGradient(gradient: Gradient(colors: [Color(red: 0.427, green: 0.455, blue: 0.831), Color(red: 0.694, green: 0.329, blue: 0.757)]), startPoint: .topLeading, endPoint: .bottomTrailing))
                     .foregroundColor(.white)
                     .cornerRadius(10)
-                    
+                    .padding(.bottom, 50)
                 }
-                       .padding()
-                
-                
-                
+                .padding()
             }
-            .alert(isPresented: $showingAlert) {
-                if isSuccessAlert {
-                    return Alert(title: Text("Success"), message: Text("Information Submitted Successfully"), dismissButton: .default(Text("View Details")) {
-                        showDetails = true
-                    })
-                } else {
-                    return Alert(title: Text("Error"), message: Text(alertMessage), dismissButton: .default(Text("OK")))
-                }
+           
+            .navigationDestination(isPresented: $showThankYouView) {
+                ThankYouView()
             }
+            
         }
-        .sheet(isPresented: $showDetails) {
-DeetsView(name: name, email: email, phoneNumber: phoneNumber, designation: designation, companyName: companyName)        }
+        .navigationBarBackButtonHidden(true)
     }
 
     var fieldsAreValid: Bool {
@@ -159,24 +143,23 @@ DeetsView(name: name, email: email, phoneNumber: phoneNumber, designation: desig
     }
 
     func submitDetails() {
+        guard fieldsAreValid else { return }
+
         let ref = Database.database().reference()
         let userDetails = ["companyName": companyName, "name": name, "email": email, "phone": phoneNumber, "designation": designation]
-        
+
         ref.child("users").childByAutoId().setValue(userDetails) { error, _ in
             if let error = error {
                 print("Data could not be saved: \(error).")
-                alertMessage = "Data could not be saved: \(error.localizedDescription)"
-                isSuccessAlert = false
-                showingAlert = true
             } else {
-                isSuccessAlert = true
-                showingAlert = true
+                self.showThankYouView = true  // Trigger the Thank You view on success
             }
         }
-        }
-       
-            
-        }
+    }
+}
+
+
+
     
     
     struct ContentView_Previews: PreviewProvider {

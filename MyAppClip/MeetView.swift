@@ -7,20 +7,26 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct MeetView: View {
     var body: some View {
         ZStack(alignment: .top) {
-                    Image("bg2")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .edgesIgnoringSafeArea(.all)
-                    
-                    Image("meet")
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                }
+            Image("bg2")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .edgesIgnoringSafeArea(.all)
+
+            NavigationLink(destination: ReserveSpotView()) {
+                Image("meet")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+            }
+        }
+        .navigationBarBackButtonHidden(true)
     }
 }
+
 
 #Preview {
     MeetView()

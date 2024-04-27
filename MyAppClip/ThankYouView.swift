@@ -17,6 +17,8 @@ struct ThankYouView: View {
                     
                     
                 }
+        
+        .navigationBarBackButtonHidden(true)
     }
 }
 

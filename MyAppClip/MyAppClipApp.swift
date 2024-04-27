@@ -18,7 +18,7 @@ struct MyAppClipApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IntroductionView()
         }
     }
 }
