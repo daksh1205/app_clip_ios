@@ -1,0 +1,4 @@
+module GoogleAppMeasurementTarget {
+umbrella "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/GoogleAppMeasurement/GoogleAppMeasurementWrapper/include"
+export *
+}

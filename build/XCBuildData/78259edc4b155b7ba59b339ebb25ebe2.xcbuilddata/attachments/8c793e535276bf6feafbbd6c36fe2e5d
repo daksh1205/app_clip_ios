@@ -1,0 +1,4 @@
+module GoogleUtilities_SwizzlerTestHelpers {
+umbrella "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/GoogleUtilities/GoogleUtilities/SwizzlerTestHelpers/Public"
+export *
+}

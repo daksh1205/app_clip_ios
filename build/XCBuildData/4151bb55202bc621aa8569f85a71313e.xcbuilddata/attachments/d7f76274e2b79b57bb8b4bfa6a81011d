@@ -1,0 +1,78 @@
+{
+  "" : {
+    "diagnostics" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/DetailsAppClip-master.dia",
+    "emit-module-dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/DetailsAppClip-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/DetailsAppClip-master-emit-module.dia",
+    "swift-dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/DetailsAppClip-master.swiftdeps"
+  },
+  "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/daksh/Desktop/MyAppClip/DetailsAppClip/ContentView.swift" : {
+    "const-values" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/daksh/Desktop/MyAppClip/DetailsAppClip/DetailsAppClipApp.swift" : {
+    "const-values" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/DetailsAppClipApp.swiftconstvalues",
+    "dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/DetailsAppClipApp.d",
+    "diagnostics" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/DetailsAppClipApp.dia",
+    "index-unit-output-path" : "/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/DetailsAppClipApp.o",
+    "llvm-bc" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/DetailsAppClipApp.bc",
+    "object" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/DetailsAppClipApp.o",
+    "swift-dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/DetailsAppClipApp.swiftdeps",
+    "swiftmodule" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/DetailsAppClipApp~partial.swiftmodule"
+  },
+  "/Users/daksh/Desktop/MyAppClip/DetailsAppClip/IntroductionView.swift" : {
+    "const-values" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/IntroductionView.swiftconstvalues",
+    "dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/IntroductionView.d",
+    "diagnostics" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/IntroductionView.dia",
+    "index-unit-output-path" : "/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/IntroductionView.o",
+    "llvm-bc" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/IntroductionView.bc",
+    "object" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/IntroductionView.o",
+    "swift-dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/IntroductionView.swiftdeps",
+    "swiftmodule" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/IntroductionView~partial.swiftmodule"
+  },
+  "/Users/daksh/Desktop/MyAppClip/DetailsAppClip/MeetView.swift" : {
+    "const-values" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/MeetView.swiftconstvalues",
+    "dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/MeetView.d",
+    "diagnostics" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/MeetView.dia",
+    "index-unit-output-path" : "/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/MeetView.o",
+    "llvm-bc" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/MeetView.bc",
+    "object" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/MeetView.o",
+    "swift-dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/MeetView.swiftdeps",
+    "swiftmodule" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/MeetView~partial.swiftmodule"
+  },
+  "/Users/daksh/Desktop/MyAppClip/DetailsAppClip/ReserveSpotView.swift" : {
+    "const-values" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ReserveSpotView.swiftconstvalues",
+    "dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ReserveSpotView.d",
+    "diagnostics" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ReserveSpotView.dia",
+    "index-unit-output-path" : "/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ReserveSpotView.o",
+    "llvm-bc" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ReserveSpotView.bc",
+    "object" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ReserveSpotView.o",
+    "swift-dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ReserveSpotView.swiftdeps",
+    "swiftmodule" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ReserveSpotView~partial.swiftmodule"
+  },
+  "/Users/daksh/Desktop/MyAppClip/DetailsAppClip/ThankYouView.swift" : {
+    "const-values" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ThankYouView.swiftconstvalues",
+    "dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ThankYouView.d",
+    "diagnostics" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ThankYouView.dia",
+    "index-unit-output-path" : "/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ThankYouView.o",
+    "llvm-bc" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ThankYouView.bc",
+    "object" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ThankYouView.o",
+    "swift-dependencies" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ThankYouView.swiftdeps",
+    "swiftmodule" : "/Users/daksh/Desktop/MyAppClip/build/MyAppClip.build/Debug-iphoneos/DetailsAppClip.build/Objects-normal/arm64/ThankYouView~partial.swiftmodule"
+  }
+}

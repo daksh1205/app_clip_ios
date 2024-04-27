@@ -107,7 +107,7 @@ struct ContentView: View {
                                           .textFieldStyle(RoundedBorderTextFieldStyle())
                                           .keyboardType(.emailAddress)
                                         
-                                          .cornerRadius(10)
+                                         
                                           
                                       
                                   }

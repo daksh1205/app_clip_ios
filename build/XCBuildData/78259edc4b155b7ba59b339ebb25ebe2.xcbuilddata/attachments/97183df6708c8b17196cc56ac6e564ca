@@ -1,0 +1,28 @@
+{
+  "" : {
+    "diagnostics" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestHelpers-master.dia",
+    "emit-module-dependencies" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestHelpers-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestHelpers-master-emit-module.dia",
+    "swift-dependencies" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestHelpers-master.swiftdeps"
+  },
+  "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/Sources/PromisesTestHelpers/PromisesTestHelpers.swift" : {
+    "const-values" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestHelpers.swiftconstvalues",
+    "dependencies" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestHelpers.d",
+    "diagnostics" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestHelpers.dia",
+    "index-unit-output-path" : "/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestHelpers.o",
+    "llvm-bc" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestHelpers.bc",
+    "object" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestHelpers.o",
+    "swift-dependencies" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestHelpers.swiftdeps",
+    "swiftmodule" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestHelpers~partial.swiftmodule"
+  },
+  "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/Sources/PromisesTestHelpers/PromisesTestInteroperability.swift" : {
+    "const-values" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestInteroperability.swiftconstvalues",
+    "dependencies" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestInteroperability.d",
+    "diagnostics" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestInteroperability.dia",
+    "index-unit-output-path" : "/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestInteroperability.o",
+    "llvm-bc" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestInteroperability.bc",
+    "object" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestInteroperability.o",
+    "swift-dependencies" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestInteroperability.swiftdeps",
+    "swiftmodule" : "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/promises/build/Promises.build/Debug-iphoneos/PromisesTestHelpers.build/Objects-normal/arm64/PromisesTestInteroperability~partial.swiftmodule"
+  }
+}

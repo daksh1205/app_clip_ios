@@ -1,0 +1,4 @@
+module grpcWrapper {
+umbrella "/Users/daksh/Library/Developer/Xcode/DerivedData/MyAppClip-gahojoltnbongxeeswiwmseksjiu/SourcePackages/checkouts/grpc-binary/grpc-Wrapper/include"
+export *
+}

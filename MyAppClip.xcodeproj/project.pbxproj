@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5233182C2BDD375600AB20C6 /* DetailsAppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233182B2BDD375600AB20C6 /* DetailsAppClipApp.swift */; };
+		5233182E2BDD375600AB20C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233182D2BDD375600AB20C6 /* ContentView.swift */; };
+		523318302BDD375700AB20C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5233182F2BDD375700AB20C6 /* Assets.xcassets */; };
+		523318332BDD375700AB20C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523318322BDD375700AB20C6 /* Preview Assets.xcassets */; };
+		523318382BDD375700AB20C6 /* DetailsAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 523318292BDD375600AB20C6 /* DetailsAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5233183E2BDD60D200AB20C6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5233183D2BDD60D200AB20C6 /* FirebaseDatabase */; };
+		523318402BDD60D800AB20C6 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5233183F2BDD60D800AB20C6 /* FirebaseDatabaseSwift */; };
+		523318422BDD612E00AB20C6 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523318412BDD612E00AB20C6 /* IntroductionView.swift */; };
+		523318442BDD614C00AB20C6 /* MeetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523318432BDD614C00AB20C6 /* MeetView.swift */; };
+		523318462BDD617A00AB20C6 /* ReserveSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523318452BDD617A00AB20C6 /* ReserveSpotView.swift */; };
+		523318482BDD61B600AB20C6 /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523318472BDD61B600AB20C6 /* ThankYouView.swift */; };
+		523318512BDD684F00AB20C6 /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 523318502BDD684F00AB20C6 /* Kanit-Regular.ttf */; };
+		523318532BDD69C100AB20C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 523318522BDD69C100AB20C6 /* GoogleService-Info.plist */; };
 		526E2D6D2BDBFAC500E6CF8C /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2D6C2BDBFAC500E6CF8C /* IntroductionView.swift */; };
 		526E2D712BDC027100E6CF8C /* MeetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2D702BDC027100E6CF8C /* MeetView.swift */; };
 		526E2D732BDC065200E6CF8C /* deets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2D722BDC065200E6CF8C /* deets.swift */; };
@@ -18,7 +31,6 @@
 		52DC37552BD6E4CB0056BC56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DC37542BD6E4CB0056BC56 /* ContentView.swift */; };
 		52DC37572BD6E4CC0056BC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DC37562BD6E4CC0056BC56 /* Assets.xcassets */; };
 		52DC375A2BD6E4CC0056BC56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DC37592BD6E4CC0056BC56 /* Preview Assets.xcassets */; };
-		52DC37622BD6E71D0056BC56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52DC37612BD6E71D0056BC56 /* GoogleService-Info.plist */; };
 		52DC37652BD6E7C10056BC56 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 52DC37642BD6E7C10056BC56 /* FirebaseDatabase */; };
 		52DC37672BD6E7C50056BC56 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 52DC37662BD6E7C50056BC56 /* FirebaseAuth */; };
 		52DC37692BD6E7C90056BC56 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 52DC37682BD6E7C90056BC56 /* FirebaseDatabaseSwift */; };
@@ -26,7 +38,44 @@
 		52DC376D2BD6E84E0056BC56 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DC376C2BD6E84D0056BC56 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		523318362BDD375700AB20C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DC37472BD6E4CB0056BC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523318282BDD375600AB20C6;
+			remoteInfo = DetailsAppClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		523318392BDD375700AB20C6 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				523318382BDD375700AB20C6 /* DetailsAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		523318292BDD375600AB20C6 /* DetailsAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetailsAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5233182B2BDD375600AB20C6 /* DetailsAppClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsAppClipApp.swift; sourceTree = "<group>"; };
+		5233182D2BDD375600AB20C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5233182F2BDD375700AB20C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		523318322BDD375700AB20C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		523318342BDD375700AB20C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523318352BDD375700AB20C6 /* DetailsAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DetailsAppClip.entitlements; sourceTree = "<group>"; };
+		523318412BDD612E00AB20C6 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		523318432BDD614C00AB20C6 /* MeetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetView.swift; sourceTree = "<group>"; };
+		523318452BDD617A00AB20C6 /* ReserveSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveSpotView.swift; sourceTree = "<group>"; };
+		523318472BDD61B600AB20C6 /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
+		523318502BDD684F00AB20C6 /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-Regular.ttf"; path = "../../../Downloads/Kanit/Kanit-Regular.ttf"; sourceTree = "<group>"; };
+		523318522BDD69C100AB20C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		526E2D6C2BDBFAC500E6CF8C /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
 		526E2D702BDC027100E6CF8C /* MeetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetView.swift; sourceTree = "<group>"; };
 		526E2D722BDC065200E6CF8C /* deets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deets.swift; sourceTree = "<group>"; };
@@ -40,11 +89,19 @@
 		52DC37542BD6E4CB0056BC56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52DC37562BD6E4CC0056BC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52DC37592BD6E4CC0056BC56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		52DC37612BD6E71D0056BC56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		52DC376C2BD6E84D0056BC56 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		523318262BDD375600AB20C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523318402BDD60D800AB20C6 /* FirebaseDatabaseSwift in Frameworks */,
+				5233183E2BDD60D200AB20C6 /* FirebaseDatabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52DC374C2BD6E4CB0056BC56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,10 +116,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5233182A2BDD375600AB20C6 /* DetailsAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				523318522BDD69C100AB20C6 /* GoogleService-Info.plist */,
+				5233182B2BDD375600AB20C6 /* DetailsAppClipApp.swift */,
+				523318342BDD375700AB20C6 /* Info.plist */,
+				523318502BDD684F00AB20C6 /* Kanit-Regular.ttf */,
+				523318412BDD612E00AB20C6 /* IntroductionView.swift */,
+				523318452BDD617A00AB20C6 /* ReserveSpotView.swift */,
+				523318432BDD614C00AB20C6 /* MeetView.swift */,
+				5233182D2BDD375600AB20C6 /* ContentView.swift */,
+				523318472BDD61B600AB20C6 /* ThankYouView.swift */,
+				5233182F2BDD375700AB20C6 /* Assets.xcassets */,
+				523318352BDD375700AB20C6 /* DetailsAppClip.entitlements */,
+				523318312BDD375700AB20C6 /* Preview Content */,
+			);
+			path = DetailsAppClip;
+			sourceTree = "<group>";
+		};
+		523318312BDD375700AB20C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				523318322BDD375700AB20C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		52DC37462BD6E4CB0056BC56 = {
 			isa = PBXGroup;
 			children = (
 				52DC37512BD6E4CB0056BC56 /* MyAppClip */,
+				5233182A2BDD375600AB20C6 /* DetailsAppClip */,
 				52DC37502BD6E4CB0056BC56 /* Products */,
 				52DC37632BD6E7C10056BC56 /* Frameworks */,
 			);
@@ -72,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				52DC374F2BD6E4CB0056BC56 /* MyAppClip.app */,
+				523318292BDD375600AB20C6 /* DetailsAppClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,7 +175,6 @@
 				526E2D702BDC027100E6CF8C /* MeetView.swift */,
 				526E2DA32BDC360300E6CF8C /* ThankYouView.swift */,
 				526E2D722BDC065200E6CF8C /* deets.swift */,
-				52DC37612BD6E71D0056BC56 /* GoogleService-Info.plist */,
 				52DC37562BD6E4CC0056BC56 /* Assets.xcassets */,
 				526E2D9D2BDC175500E6CF8C /* Kanit-Regular.ttf */,
 				52DC37582BD6E4CC0056BC56 /* Preview Content */,
@@ -115,6 +200,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		523318282BDD375600AB20C6 /* DetailsAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5233183C2BDD375700AB20C6 /* Build configuration list for PBXNativeTarget "DetailsAppClip" */;
+			buildPhases = (
+				523318252BDD375600AB20C6 /* Sources */,
+				523318262BDD375600AB20C6 /* Frameworks */,
+				523318272BDD375600AB20C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DetailsAppClip;
+			packageProductDependencies = (
+				5233183D2BDD60D200AB20C6 /* FirebaseDatabase */,
+				5233183F2BDD60D800AB20C6 /* FirebaseDatabaseSwift */,
+			);
+			productName = DetailsAppClip;
+			productReference = 523318292BDD375600AB20C6 /* DetailsAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 		52DC374E2BD6E4CB0056BC56 /* MyAppClip */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52DC375D2BD6E4CC0056BC56 /* Build configuration list for PBXNativeTarget "MyAppClip" */;
@@ -122,10 +228,12 @@
 				52DC374B2BD6E4CB0056BC56 /* Sources */,
 				52DC374C2BD6E4CB0056BC56 /* Frameworks */,
 				52DC374D2BD6E4CB0056BC56 /* Resources */,
+				523318392BDD375700AB20C6 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				523318372BDD375700AB20C6 /* PBXTargetDependency */,
 			);
 			name = MyAppClip;
 			packageProductDependencies = (
@@ -148,6 +256,9 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					523318282BDD375600AB20C6 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					52DC374E2BD6E4CB0056BC56 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -170,18 +281,29 @@
 			projectRoot = "";
 			targets = (
 				52DC374E2BD6E4CB0056BC56 /* MyAppClip */,
+				523318282BDD375600AB20C6 /* DetailsAppClip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		523318272BDD375600AB20C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523318332BDD375700AB20C6 /* Preview Assets.xcassets in Resources */,
+				523318532BDD69C100AB20C6 /* GoogleService-Info.plist in Resources */,
+				523318302BDD375700AB20C6 /* Assets.xcassets in Resources */,
+				523318512BDD684F00AB20C6 /* Kanit-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52DC374D2BD6E4CB0056BC56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				52DC375A2BD6E4CC0056BC56 /* Preview Assets.xcassets in Resources */,
 				52DC37572BD6E4CC0056BC56 /* Assets.xcassets in Resources */,
-				52DC37622BD6E71D0056BC56 /* GoogleService-Info.plist in Resources */,
 				526E2D9E2BDC175500E6CF8C /* Kanit-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +311,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		523318252BDD375600AB20C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5233182E2BDD375600AB20C6 /* ContentView.swift in Sources */,
+				523318422BDD612E00AB20C6 /* IntroductionView.swift in Sources */,
+				523318462BDD617A00AB20C6 /* ReserveSpotView.swift in Sources */,
+				5233182C2BDD375600AB20C6 /* DetailsAppClipApp.swift in Sources */,
+				523318442BDD614C00AB20C6 /* MeetView.swift in Sources */,
+				523318482BDD61B600AB20C6 /* ThankYouView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52DC374B2BD6E4CB0056BC56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,7 +342,79 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		523318372BDD375700AB20C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 523318282BDD375600AB20C6 /* DetailsAppClip */;
+			targetProxy = 523318362BDD375700AB20C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		5233183A2BDD375700AB20C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DetailsAppClip/DetailsAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DetailsAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = K2WPSGXZRH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DetailsAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyAppClip;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..MyAppClip.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5233183B2BDD375700AB20C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DetailsAppClip/DetailsAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DetailsAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = K2WPSGXZRH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DetailsAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyAppClip;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..MyAppClip.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		52DC375B2BD6E4CC0056BC56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -330,6 +537,7 @@
 		52DC375E2BD6E4CC0056BC56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -359,6 +567,7 @@
 		52DC375F2BD6E4CC0056BC56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -388,6 +597,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5233183C2BDD375700AB20C6 /* Build configuration list for PBXNativeTarget "DetailsAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5233183A2BDD375700AB20C6 /* Debug */,
+				5233183B2BDD375700AB20C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		52DC374A2BD6E4CB0056BC56 /* Build configuration list for PBXProject "MyAppClip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -420,6 +638,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5233183D2BDD60D200AB20C6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52DC37602BD6E4DD0056BC56 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		5233183F2BDD60D800AB20C6 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52DC37602BD6E4DD0056BC56 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
 		52DC37642BD6E7C10056BC56 /* FirebaseDatabase */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 52DC37602BD6E4DD0056BC56 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
