@@ -1,5 +1,5 @@
 import SwiftUI
-import FirebaseDatabase
+
 
 struct ContentView: View {
     @State private var companyName = ""
@@ -12,9 +12,17 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Image("signupbg")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
+                
+                VStack() {
+                    Image("signuplogo")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .frame(maxWidth: .infinity, maxHeight: 15)
+                                        .padding(.bottom, 680)
+                                        .padding(.horizontal, 20)
+                }
+                    
+                
                     
                 
                 VStack(alignment: .center
@@ -34,8 +42,8 @@ struct ContentView: View {
                                           .font(Font.custom("Kanit", size: 17))
                                           .textFieldStyle(RoundedBorderTextFieldStyle())
                                   }
-                                  .padding(.top, 180)
-                                  .padding(.horizontal, 8)
+                                  .padding(.top, 200)
+                                  .padding(.horizontal, 5)
                                   
                                   // Name
                                   VStack(alignment: .leading, spacing: 5) {
@@ -52,7 +60,7 @@ struct ContentView: View {
                                           .font(Font.custom("Kanit", size: 17))
                                           .textFieldStyle(RoundedBorderTextFieldStyle())
                                   }
-                                  .padding(.horizontal, 8)
+                                  .padding(.horizontal, 5)
                                   
                                   // Designation
                                   VStack(alignment: .leading, spacing: 5) {
@@ -70,7 +78,7 @@ struct ContentView: View {
                                           .textFieldStyle(RoundedBorderTextFieldStyle())
                                           .keyboardType(.default)
                                   }
-                                  .padding(.horizontal, 8)
+                                  .padding(.horizontal, 5)
                                   
                                   // Phone Number
                                   VStack(alignment: .leading, spacing: 5) {
@@ -88,7 +96,7 @@ struct ContentView: View {
                                           .textFieldStyle(RoundedBorderTextFieldStyle())
                                           .keyboardType(.phonePad)
                                   }
-                                  .padding(.horizontal, 8)
+                                  .padding(.horizontal, 5)
                                   
                                   
                                   // Email
@@ -111,7 +119,7 @@ struct ContentView: View {
                                           
                                       
                                   }
-                                  .padding(.horizontal, 8)
+                                  .padding(.horizontal, 5)
                     
                                   .padding(.bottom, 100)
                     
@@ -125,7 +133,7 @@ struct ContentView: View {
                     .background(LinearGradient(gradient: Gradient(colors: [Color(red: 0.427, green: 0.455, blue: 0.831), Color(red: 0.694, green: 0.329, blue: 0.757)]), startPoint: .topLeading, endPoint: .bottomTrailing))
                     .foregroundColor(.white)
                     .cornerRadius(10)
-                    .padding(.bottom, 50)
+                    .padding(.bottom, 100)
                 }
                 .padding()
             }
@@ -145,17 +153,49 @@ struct ContentView: View {
     func submitDetails() {
         guard fieldsAreValid else { return }
 
-        let ref = Database.database().reference()
-        let userDetails = ["companyName": companyName, "name": name, "email": email, "phone": phoneNumber, "designation": designation]
-
-        ref.child("users").childByAutoId().setValue(userDetails) { error, _ in
-            if let error = error {
-                print("Data could not be saved: \(error).")
-            } else {
-                self.showThankYouView = true  // Trigger the Thank You view on success
-            }
+        // Create the URL and request
+        guard let url = URL(string: "https://dummy.restapiexample.com/api/v1/create") else {
+            print("Invalid URL")
+            return
         }
+
+        // Set up the JSON to send
+        let userDetails = ["name": name, "salary": phoneNumber, "age": email] // Mapping your fields to the API's expected keys
+        guard let encoded = try? JSONEncoder().encode(userDetails) else {
+            print("Failed to encode user details")
+            return
+        }
+
+        // Create the URLRequest object
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.httpBody = encoded
+
+        // Perform the request
+        URLSession.shared.dataTask(with: request) { data, response, error in
+            if let error = error {
+                print("Error: \(error.localizedDescription)")
+                return
+            }
+
+            if let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode != 200 {
+                print("HTTP Error: \(httpResponse.statusCode)")
+                return
+            }
+
+            if let data = data {
+                // Handling the JSON response
+                if let responseString = String(data: data, encoding: .utf8) {
+                    print("Response: \(responseString)")
+                    DispatchQueue.main.async {
+                        self.showThankYouView = true  // Show the Thank You view on successful response
+                    }
+                }
+            }
+        }.resume()
     }
+
 }
 
 
@@ -167,4 +207,3 @@ struct ContentView: View {
             ContentView()
         }
     }
-

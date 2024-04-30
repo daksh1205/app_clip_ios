@@ -20,20 +20,20 @@ struct ReserveSpotView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 110, height: 90)
-                .padding(.top, 80)
+                .padding(.top, 75)
                 .padding(.horizontal, 20)
 
             Image("genai")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 400, height: 200)
-                .padding(.top, 200)
+                .padding(.top, 175)
 
             Image("descrp")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 340, height: 360)
-                .padding(.top, 420)
+                .padding(.top, 385)
                 .padding(.horizontal, 30)
         }
         .overlay(
