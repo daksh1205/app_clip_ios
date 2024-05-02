@@ -19,7 +19,6 @@
 		523318462BDD617A00AB20C6 /* ReserveSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523318452BDD617A00AB20C6 /* ReserveSpotView.swift */; };
 		523318482BDD61B600AB20C6 /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523318472BDD61B600AB20C6 /* ThankYouView.swift */; };
 		523318512BDD684F00AB20C6 /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 523318502BDD684F00AB20C6 /* Kanit-Regular.ttf */; };
-		523318532BDD69C100AB20C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 523318522BDD69C100AB20C6 /* GoogleService-Info.plist */; };
 		526E2D6D2BDBFAC500E6CF8C /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2D6C2BDBFAC500E6CF8C /* IntroductionView.swift */; };
 		526E2D712BDC027100E6CF8C /* MeetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2D702BDC027100E6CF8C /* MeetView.swift */; };
 		526E2D732BDC065200E6CF8C /* deets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2D722BDC065200E6CF8C /* deets.swift */; };
@@ -75,7 +74,6 @@
 		523318452BDD617A00AB20C6 /* ReserveSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveSpotView.swift; sourceTree = "<group>"; };
 		523318472BDD61B600AB20C6 /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
 		523318502BDD684F00AB20C6 /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-Regular.ttf"; path = "../../../Downloads/Kanit/Kanit-Regular.ttf"; sourceTree = "<group>"; };
-		523318522BDD69C100AB20C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		526E2D6C2BDBFAC500E6CF8C /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
 		526E2D702BDC027100E6CF8C /* MeetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetView.swift; sourceTree = "<group>"; };
 		526E2D722BDC065200E6CF8C /* deets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deets.swift; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 		5233182A2BDD375600AB20C6 /* DetailsAppClip */ = {
 			isa = PBXGroup;
 			children = (
-				523318522BDD69C100AB20C6 /* GoogleService-Info.plist */,
 				5233182B2BDD375600AB20C6 /* DetailsAppClipApp.swift */,
 				523318342BDD375700AB20C6 /* Info.plist */,
 				523318502BDD684F00AB20C6 /* Kanit-Regular.ttf */,
@@ -292,7 +289,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				523318332BDD375700AB20C6 /* Preview Assets.xcassets in Resources */,
-				523318532BDD69C100AB20C6 /* GoogleService-Info.plist in Resources */,
 				523318302BDD375700AB20C6 /* Assets.xcassets in Resources */,
 				523318512BDD684F00AB20C6 /* Kanit-Regular.ttf in Resources */,
 			);

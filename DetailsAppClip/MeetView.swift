@@ -1,15 +1,8 @@
-//
-//  MeetView.swift
-//  DetailsAppClip
-//
-//  Created by Daksh  on 27/04/24.
-//
-
-import SwiftUI
-
 import SwiftUI
 
 struct MeetView: View {
+    @State private var showReserveSpotView = false  // State to control the display of ReserveSpotView
+
     var body: some View {
         ZStack(alignment: .top) {
             Image("bg2")
@@ -17,10 +10,24 @@ struct MeetView: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
 
-            NavigationLink(destination: ReserveSpotView()) {
-                Image("meet")
+            // The button that triggers the ReserveSpotView
+            Button(action: {
+                withAnimation(.spring()) {
+                    showReserveSpotView.toggle()
+                }
+            }) {
+                Image("meetrgpt")
                     .resizable()
-                    .aspectRatio(contentMode: .fill)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(maxWidth: .infinity)
+                    .padding(.horizontal, 20)
+                    .padding(.top, 170)
+            }
+
+            if showReserveSpotView {
+                ReserveSpotView()
+                    .transition(.move(edge: .bottom))
+                    .zIndex(1)  // Ensure ReserveSpotView covers MeetView when it appears
             }
         }
         .navigationBarBackButtonHidden(true)
@@ -28,6 +35,4 @@ struct MeetView: View {
 }
 
 
-#Preview {
-    MeetView()
-}
+    
