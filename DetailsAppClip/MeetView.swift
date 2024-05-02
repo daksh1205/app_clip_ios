@@ -10,19 +10,22 @@ struct MeetView: View {
                 .aspectRatio(contentMode: .fill)
                 .edgesIgnoringSafeArea(.all)
 
-            // The button that triggers the ReserveSpotView
-            Button(action: {
-                withAnimation(.spring()) {
-                    showReserveSpotView.toggle()
-                }
-            }) {
-                Image("meetrgpt")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(maxWidth: .infinity)
-                    .padding(.horizontal, 20)
-                    .padding(.top, 170)
-            }
+            Image("meetrgpt")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(maxWidth: .infinity)
+                .padding(.horizontal, 20)
+                .padding(.top, 170)
+                .gesture(
+                    DragGesture(minimumDistance: 50, coordinateSpace: .local)
+                        .onEnded { value in
+                            if value.translation.height < 0 {
+                                withAnimation(.spring()) {
+                                    showReserveSpotView.toggle()
+                                }
+                            }
+                        }
+                )
 
             if showReserveSpotView {
                 ReserveSpotView()
@@ -33,6 +36,3 @@ struct MeetView: View {
         .navigationBarBackButtonHidden(true)
     }
 }
-
-
-    

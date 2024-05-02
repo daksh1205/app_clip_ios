@@ -11,18 +11,21 @@ struct IntroductionView: View {
                     .aspectRatio(contentMode: .fill)
                     .edgesIgnoringSafeArea(.all)
 
-                // The navigation link or button that triggers the MeetView
-                Button(action: {
-                    withAnimation(.spring()) {
-                        showMeetView.toggle()
-                    }
-                }) {
-                    Image("heythere")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 400, height: 400)
-                        .padding(.top, 230)
-                }
+                Image("heythere")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 400, height: 400)
+                    .padding(.top, 230)
+                    .gesture(
+                        DragGesture(minimumDistance: 50, coordinateSpace: .local)
+                            .onEnded { value in
+                                if value.translation.height < 0 {
+                                    withAnimation(.spring()) {
+                                        showMeetView.toggle()
+                                    }
+                                }
+                            }
+                    )
 
                 if showMeetView {
                     MeetView()
@@ -34,5 +37,3 @@ struct IntroductionView: View {
         }
     }
 }
-
-
