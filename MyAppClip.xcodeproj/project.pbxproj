@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5233182C2BDD375600AB20C6 /* DetailsAppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233182B2BDD375600AB20C6 /* DetailsAppClipApp.swift */; };
-		5233182E2BDD375600AB20C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233182D2BDD375600AB20C6 /* ContentView.swift */; };
 		523318302BDD375700AB20C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5233182F2BDD375700AB20C6 /* Assets.xcassets */; };
 		523318332BDD375700AB20C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523318322BDD375700AB20C6 /* Preview Assets.xcassets */; };
 		523318382BDD375700AB20C6 /* DetailsAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 523318292BDD375600AB20C6 /* DetailsAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -64,7 +63,6 @@
 /* Begin PBXFileReference section */
 		523318292BDD375600AB20C6 /* DetailsAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetailsAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5233182B2BDD375600AB20C6 /* DetailsAppClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsAppClipApp.swift; sourceTree = "<group>"; };
-		5233182D2BDD375600AB20C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5233182F2BDD375700AB20C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		523318322BDD375700AB20C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		523318342BDD375700AB20C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 				523318412BDD612E00AB20C6 /* IntroductionView.swift */,
 				523318452BDD617A00AB20C6 /* ReserveSpotView.swift */,
 				523318432BDD614C00AB20C6 /* MeetView.swift */,
-				5233182D2BDD375600AB20C6 /* ContentView.swift */,
 				523318472BDD61B600AB20C6 /* ThankYouView.swift */,
 				5233182F2BDD375700AB20C6 /* Assets.xcassets */,
 				523318352BDD375700AB20C6 /* DetailsAppClip.entitlements */,
@@ -311,7 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5233182E2BDD375600AB20C6 /* ContentView.swift in Sources */,
 				523318422BDD612E00AB20C6 /* IntroductionView.swift in Sources */,
 				523318462BDD617A00AB20C6 /* ReserveSpotView.swift in Sources */,
 				5233182C2BDD375600AB20C6 /* DetailsAppClipApp.swift in Sources */,
