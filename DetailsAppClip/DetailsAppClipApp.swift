@@ -13,7 +13,7 @@ struct DetailsAppClipApp: App {
     
     var body: some Scene {
         WindowGroup {
-            IntroductionView()
+            LottieIntroductionView()
         }
     }
 }

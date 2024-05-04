@@ -18,6 +18,22 @@
 		523318462BDD617A00AB20C6 /* ReserveSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523318452BDD617A00AB20C6 /* ReserveSpotView.swift */; };
 		523318482BDD61B600AB20C6 /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523318472BDD61B600AB20C6 /* ThankYouView.swift */; };
 		523318512BDD684F00AB20C6 /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 523318502BDD684F00AB20C6 /* Kanit-Regular.ttf */; };
+		5242A72D2BE53B2100CBF73D /* Screen1_Entry.json in Resources */ = {isa = PBXBuildFile; fileRef = 5242A72C2BE53B2100CBF73D /* Screen1_Entry.json */; };
+		5242A72E2BE53B2100CBF73D /* Screen1_Entry.json in Resources */ = {isa = PBXBuildFile; fileRef = 5242A72C2BE53B2100CBF73D /* Screen1_Entry.json */; };
+		5242A7302BE53C2900CBF73D /* Screen1_exit.json in Resources */ = {isa = PBXBuildFile; fileRef = 5242A72F2BE53C2900CBF73D /* Screen1_exit.json */; };
+		5242A7312BE53C2900CBF73D /* Screen1_exit.json in Resources */ = {isa = PBXBuildFile; fileRef = 5242A72F2BE53C2900CBF73D /* Screen1_exit.json */; };
+		5242A7332BE53CC700CBF73D /* LottieMeetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5242A7322BE53CC700CBF73D /* LottieMeetView.swift */; };
+		5242A7342BE53CC700CBF73D /* LottieMeetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5242A7322BE53CC700CBF73D /* LottieMeetView.swift */; };
+		5242A7362BE53D4B00CBF73D /* Screen2_Exit.json in Resources */ = {isa = PBXBuildFile; fileRef = 5242A7352BE53D4B00CBF73D /* Screen2_Exit.json */; };
+		5242A7372BE53D4B00CBF73D /* Screen2_Exit.json in Resources */ = {isa = PBXBuildFile; fileRef = 5242A7352BE53D4B00CBF73D /* Screen2_Exit.json */; };
+		5242A7392BE53D5D00CBF73D /* Screen2_Entry.json in Resources */ = {isa = PBXBuildFile; fileRef = 5242A7382BE53D5D00CBF73D /* Screen2_Entry.json */; };
+		5242A73A2BE53D5D00CBF73D /* Screen2_Entry.json in Resources */ = {isa = PBXBuildFile; fileRef = 5242A7382BE53D5D00CBF73D /* Screen2_Entry.json */; };
+		5242A73C2BE5402800CBF73D /* Screen3_Exit.json in Resources */ = {isa = PBXBuildFile; fileRef = 5242A73B2BE5402800CBF73D /* Screen3_Exit.json */; };
+		5242A73D2BE5402800CBF73D /* Screen3_Exit.json in Resources */ = {isa = PBXBuildFile; fileRef = 5242A73B2BE5402800CBF73D /* Screen3_Exit.json */; };
+		5242A73F2BE5402F00CBF73D /* Screen3_Entry.json in Resources */ = {isa = PBXBuildFile; fileRef = 5242A73E2BE5402F00CBF73D /* Screen3_Entry.json */; };
+		5242A7402BE5402F00CBF73D /* Screen3_Entry.json in Resources */ = {isa = PBXBuildFile; fileRef = 5242A73E2BE5402F00CBF73D /* Screen3_Entry.json */; };
+		526AAE522BE4F4230094F88C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 526AAE512BE4F4230094F88C /* Lottie */; };
+		526AAE542BE4F4540094F88C /* LottieIntroductionVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AAE532BE4F4540094F88C /* LottieIntroductionVIew.swift */; };
 		526E2D6D2BDBFAC500E6CF8C /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2D6C2BDBFAC500E6CF8C /* IntroductionView.swift */; };
 		526E2D712BDC027100E6CF8C /* MeetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2D702BDC027100E6CF8C /* MeetView.swift */; };
 		526E2D732BDC065200E6CF8C /* deets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526E2D722BDC065200E6CF8C /* deets.swift */; };
@@ -72,6 +88,14 @@
 		523318452BDD617A00AB20C6 /* ReserveSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveSpotView.swift; sourceTree = "<group>"; };
 		523318472BDD61B600AB20C6 /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
 		523318502BDD684F00AB20C6 /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Kanit-Regular.ttf"; path = "../../../Downloads/Kanit/Kanit-Regular.ttf"; sourceTree = "<group>"; };
+		5242A72C2BE53B2100CBF73D /* Screen1_Entry.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Screen1_Entry.json; sourceTree = "<group>"; };
+		5242A72F2BE53C2900CBF73D /* Screen1_exit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Screen1_exit.json; path = ../../../Downloads/Screen1_exit.json; sourceTree = "<group>"; };
+		5242A7322BE53CC700CBF73D /* LottieMeetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieMeetView.swift; sourceTree = "<group>"; };
+		5242A7352BE53D4B00CBF73D /* Screen2_Exit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Screen2_Exit.json; sourceTree = "<group>"; };
+		5242A7382BE53D5D00CBF73D /* Screen2_Entry.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Screen2_Entry.json; sourceTree = "<group>"; };
+		5242A73B2BE5402800CBF73D /* Screen3_Exit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Screen3_Exit.json; path = ../../../Downloads/Screen3_Exit.json; sourceTree = "<group>"; };
+		5242A73E2BE5402F00CBF73D /* Screen3_Entry.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Screen3_Entry.json; sourceTree = "<group>"; };
+		526AAE532BE4F4540094F88C /* LottieIntroductionVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieIntroductionVIew.swift; sourceTree = "<group>"; };
 		526E2D6C2BDBFAC500E6CF8C /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
 		526E2D702BDC027100E6CF8C /* MeetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetView.swift; sourceTree = "<group>"; };
 		526E2D722BDC065200E6CF8C /* deets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deets.swift; sourceTree = "<group>"; };
@@ -95,6 +119,7 @@
 			files = (
 				523318402BDD60D800AB20C6 /* FirebaseDatabaseSwift in Frameworks */,
 				5233183E2BDD60D200AB20C6 /* FirebaseDatabase in Frameworks */,
+				526AAE522BE4F4230094F88C /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +143,14 @@
 				5233182B2BDD375600AB20C6 /* DetailsAppClipApp.swift */,
 				523318342BDD375700AB20C6 /* Info.plist */,
 				523318502BDD684F00AB20C6 /* Kanit-Regular.ttf */,
+				526AAE532BE4F4540094F88C /* LottieIntroductionVIew.swift */,
+				5242A7322BE53CC700CBF73D /* LottieMeetView.swift */,
+				5242A73E2BE5402F00CBF73D /* Screen3_Entry.json */,
+				5242A73B2BE5402800CBF73D /* Screen3_Exit.json */,
+				5242A7382BE53D5D00CBF73D /* Screen2_Entry.json */,
+				5242A7352BE53D4B00CBF73D /* Screen2_Exit.json */,
+				5242A72F2BE53C2900CBF73D /* Screen1_exit.json */,
+				5242A72C2BE53B2100CBF73D /* Screen1_Entry.json */,
 				523318412BDD612E00AB20C6 /* IntroductionView.swift */,
 				523318452BDD617A00AB20C6 /* ReserveSpotView.swift */,
 				523318432BDD614C00AB20C6 /* MeetView.swift */,
@@ -210,6 +243,7 @@
 			packageProductDependencies = (
 				5233183D2BDD60D200AB20C6 /* FirebaseDatabase */,
 				5233183F2BDD60D800AB20C6 /* FirebaseDatabaseSwift */,
+				526AAE512BE4F4230094F88C /* Lottie */,
 			);
 			productName = DetailsAppClip;
 			productReference = 523318292BDD375600AB20C6 /* DetailsAppClip.app */;
@@ -269,6 +303,7 @@
 			mainGroup = 52DC37462BD6E4CB0056BC56;
 			packageReferences = (
 				52DC37602BD6E4DD0056BC56 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				526AAE502BE4F4230094F88C /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = 52DC37502BD6E4CB0056BC56 /* Products */;
 			projectDirPath = "";
@@ -285,9 +320,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5242A72E2BE53B2100CBF73D /* Screen1_Entry.json in Resources */,
+				5242A7312BE53C2900CBF73D /* Screen1_exit.json in Resources */,
+				5242A7372BE53D4B00CBF73D /* Screen2_Exit.json in Resources */,
+				5242A73A2BE53D5D00CBF73D /* Screen2_Entry.json in Resources */,
 				523318332BDD375700AB20C6 /* Preview Assets.xcassets in Resources */,
 				523318302BDD375700AB20C6 /* Assets.xcassets in Resources */,
 				523318512BDD684F00AB20C6 /* Kanit-Regular.ttf in Resources */,
+				5242A7402BE5402F00CBF73D /* Screen3_Entry.json in Resources */,
+				5242A73D2BE5402800CBF73D /* Screen3_Exit.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,9 +336,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5242A72D2BE53B2100CBF73D /* Screen1_Entry.json in Resources */,
 				52DC375A2BD6E4CC0056BC56 /* Preview Assets.xcassets in Resources */,
+				5242A73C2BE5402800CBF73D /* Screen3_Exit.json in Resources */,
 				52DC37572BD6E4CC0056BC56 /* Assets.xcassets in Resources */,
+				5242A73F2BE5402F00CBF73D /* Screen3_Entry.json in Resources */,
 				526E2D9E2BDC175500E6CF8C /* Kanit-Regular.ttf in Resources */,
+				5242A7392BE53D5D00CBF73D /* Screen2_Entry.json in Resources */,
+				5242A7362BE53D4B00CBF73D /* Screen2_Exit.json in Resources */,
+				5242A7302BE53C2900CBF73D /* Screen1_exit.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,8 +358,10 @@
 				523318422BDD612E00AB20C6 /* IntroductionView.swift in Sources */,
 				523318462BDD617A00AB20C6 /* ReserveSpotView.swift in Sources */,
 				5233182C2BDD375600AB20C6 /* DetailsAppClipApp.swift in Sources */,
+				5242A7342BE53CC700CBF73D /* LottieMeetView.swift in Sources */,
 				523318442BDD614C00AB20C6 /* MeetView.swift in Sources */,
 				523318482BDD61B600AB20C6 /* ThankYouView.swift in Sources */,
+				526AAE542BE4F4540094F88C /* LottieIntroductionVIew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5242A7332BE53CC700CBF73D /* LottieMeetView.swift in Sources */,
 				52DC37552BD6E4CB0056BC56 /* ContentView.swift in Sources */,
 				52DC37532BD6E4CB0056BC56 /* MyAppClipApp.swift in Sources */,
 				526E2DA02BDC2BA000E6CF8C /* DeetsView.swift in Sources */,
@@ -619,6 +669,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		526AAE502BE4F4230094F88C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
 		52DC37602BD6E4DD0056BC56 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -639,6 +697,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 52DC37602BD6E4DD0056BC56 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseDatabaseSwift;
+		};
+		526AAE512BE4F4230094F88C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 526AAE502BE4F4230094F88C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 		52DC37642BD6E7C10056BC56 /* FirebaseDatabase */ = {
 			isa = XCSwiftPackageProductDependency;
