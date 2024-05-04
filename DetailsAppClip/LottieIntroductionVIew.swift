@@ -16,7 +16,9 @@ struct LottieIntroductionView: View {
                     .playbackMode(.playing(.toProgress(1, loopMode: .playOnce)))
                     .animationDidFinish { completed in
                         // Set animationFinished to true when animation ends
-                        animationFinished = true
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0) {
+                               animationFinished = true
+                           }
                     }
                 LottieView(animation: .named("Screen1_exit"))
                     .configure { lottieAnimationView in
@@ -25,12 +27,15 @@ struct LottieIntroductionView: View {
                     .playbackMode(.playing(.toProgress(1, loopMode: .playOnce)))
                     .animationDidFinish { completed in
                         // Set animationFinished to true when animation ends
-                        animationFinished = true
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                               animationFinished = true
+                           }
                     }
               
                 
                 NavigationLink(destination: LottieMeetView(), isActive: $animationFinished) {
-                    EmptyView()
+                  
+                      
                     
                     }
                     

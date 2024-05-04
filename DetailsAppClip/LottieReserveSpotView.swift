@@ -1,7 +1,7 @@
 import SwiftUI
 import Lottie
 
-struct LottieMeetView: View {
+struct LottieReserveSpotView: View {
     // State variable to track whether the animation has finished
     @State private var animationFinished = false
     
@@ -9,7 +9,7 @@ struct LottieMeetView: View {
         NavigationView {
             ZStack {
                 // Display the Lottie animation
-                LottieView(animation: .named("Screen2_Entry"))
+                LottieView(animation: .named("Screen3_Entry"))
                     .configure { lottieAnimationView in
                         lottieAnimationView.contentMode = .scaleAspectFill
                     }
@@ -19,7 +19,7 @@ struct LottieMeetView: View {
                         animationFinished = true
                     }
                 
-                LottieView(animation: .named("Screen2_Exit"))
+                LottieView(animation: .named("Screen3_Exit"))
                     .configure { lottieAnimationView in
                         lottieAnimationView.contentMode = .scaleAspectFill
                     }
@@ -29,8 +29,8 @@ struct LottieMeetView: View {
                         animationFinished = true
                     }
                 
-                NavigationLink(destination: LottieReserveSpotView(), isActive: $animationFinished) {
-                  
+                NavigationLink(destination: ReserveSpotView(), isActive: $animationFinished) {
+                    
                        
                 }
                 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522F31692BE67F6B0077C1E8 /* LottieReserveSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F31682BE67F6B0077C1E8 /* LottieReserveSpotView.swift */; };
 		5233182C2BDD375600AB20C6 /* DetailsAppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5233182B2BDD375600AB20C6 /* DetailsAppClipApp.swift */; };
 		523318302BDD375700AB20C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5233182F2BDD375700AB20C6 /* Assets.xcassets */; };
 		523318332BDD375700AB20C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523318322BDD375700AB20C6 /* Preview Assets.xcassets */; };
@@ -77,6 +78,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		522F31682BE67F6B0077C1E8 /* LottieReserveSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieReserveSpotView.swift; sourceTree = "<group>"; };
 		523318292BDD375600AB20C6 /* DetailsAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetailsAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5233182B2BDD375600AB20C6 /* DetailsAppClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsAppClipApp.swift; sourceTree = "<group>"; };
 		5233182F2BDD375700AB20C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				523318502BDD684F00AB20C6 /* Kanit-Regular.ttf */,
 				526AAE532BE4F4540094F88C /* LottieIntroductionVIew.swift */,
 				5242A7322BE53CC700CBF73D /* LottieMeetView.swift */,
+				522F31682BE67F6B0077C1E8 /* LottieReserveSpotView.swift */,
 				5242A73E2BE5402F00CBF73D /* Screen3_Entry.json */,
 				5242A73B2BE5402800CBF73D /* Screen3_Exit.json */,
 				5242A7382BE53D5D00CBF73D /* Screen2_Entry.json */,
@@ -359,6 +362,7 @@
 				523318462BDD617A00AB20C6 /* ReserveSpotView.swift in Sources */,
 				5233182C2BDD375600AB20C6 /* DetailsAppClipApp.swift in Sources */,
 				5242A7342BE53CC700CBF73D /* LottieMeetView.swift in Sources */,
+				522F31692BE67F6B0077C1E8 /* LottieReserveSpotView.swift in Sources */,
 				523318442BDD614C00AB20C6 /* MeetView.swift in Sources */,
 				523318482BDD61B600AB20C6 /* ThankYouView.swift in Sources */,
 				526AAE542BE4F4540094F88C /* LottieIntroductionVIew.swift in Sources */,
